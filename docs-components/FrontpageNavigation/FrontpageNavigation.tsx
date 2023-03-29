@@ -12,14 +12,14 @@ const FrontpageNavigation = () => {
   const items: NavigationCardProps[] = [
     {
       name: 'For designere',
-      desc: 'Lær hvordan du kan komme i gang som designer.',
+      desc: 'Lær hvordan du kommer i gang som designer.',
       url: '/?path=/docs/kom-i-gang-for-designere--page',
       color: 'blue',
       icon: <Picture fontSize={29} />,
     },
     {
       name: 'For utviklere',
-      desc: 'Lær hvordan du kan komme i gang som utvikler.',
+      desc: 'Lær hvordan du kommer i gang som utvikler.',
       url: '/?path=/docs/kom-i-gang-for-utviklere--page',
       color: 'yellow',
       icon: <Wrench fontSize={29} />,
