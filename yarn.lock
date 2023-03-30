@@ -3478,18 +3478,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:^2.0.0-rc.2":
-  version: 2.2.1
-  resolution: "@mdx-js/react@npm:2.2.1"
-  dependencies:
-    "@types/mdx": ^2.0.0
-    "@types/react": ">=16"
-  peerDependencies:
-    react: ">=16"
-  checksum: 4462dad1d7d658bda1c2eabc3960fb843fdbcb5788ce5f863b674752e4db1b7048b5587aa85661283b5196e4641385e6b594205c2482202446ecb5f5433c975b
-  languageName: node
-  linkType: hard
-
 "@mdx-js/util@npm:1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/util@npm:1.6.22"
@@ -6800,17 +6788,6 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: b62f0ea3cdfa68e106391728325057ad36f1bde7ba2dfae029472c47e01e482bc77c6ba4f1dad59f3f04ee81cb597618ff7c30a33c157c0a20462b6dd6aa2d4d
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:>=16":
-  version: 18.0.27
-  resolution: "@types/react@npm:18.0.27"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 600fdbc39a92ea4a77047db3e12f05f67776a710f5918248c0189a59ac2a38900c9db5a5d2e433a16df528a3ecab1aa114b322cacea573bb1ca2fc0b094c52d1
   languageName: node
   linkType: hard
 
@@ -16849,6 +16826,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mdx-embed@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "mdx-embed@npm:1.1.2"
+  peerDependencies:
+    "@mdx-js/mdx": ^1.6.16
+    "@mdx-js/react": ^1.6.16
+    react: ^16.x || ^17.x || ^18.x
+    react-dom: ^16.x || ^17.x || ^18.x
+  checksum: af837318956882378ae7db2ac9a35d057b5036fe2cff32af3374510665a9a15789a308a03b9a050400c18309eebb82ddd8bad3d4c4c01aacd03e2217031b7443
+  languageName: node
+  linkType: hard
+
 "media-typer@npm:0.3.0":
   version: 0.3.0
   resolution: "media-typer@npm:0.3.0"
@@ -22431,7 +22420,7 @@ __metadata:
     "@altinn/figma-design-tokens": ^5.0.0
     "@digdir/design-system-react": "*"
     "@mdx-js/loader": ^2.0.0-rc.2
-    "@mdx-js/react": ^2.0.0-rc.2
+    "@mdx-js/react": ^1.6.22
     "@navikt/aksel-icons": ^2.8.4
     "@next/font": 13.0.7
     "@reach/disclosure": ^0.18.0
@@ -22444,6 +22433,7 @@ __metadata:
     classnames: ^2.3.2
     directory-tree: ^3.5.1
     gray-matter: ^4.0.3
+    mdx-embed: ^1.1.2
     moment: ^2.29.4
     next: 13.0.7
     normalize.css: ^8.0.1
